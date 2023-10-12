@@ -1,7 +1,7 @@
 cask "iina-git" do
   version "1.3.3-1"
   arch arm: "arm64", intel: "universal"
-  sha256 arm: "49721d4f700b1267da455306cc8bebc7fe02be11fc8ee49bd8f636ac23783e51", intel: "49721d4f700b1267da455306cc8bebc7fe02be11fc8ee49bd8f636ac23783e51"
+  sha256 arm: "db24cb0e4c97f27e18d2cffb13091d90f6251620da951b6b01ff73915dd48a2b", intel: "49721d4f700b1267da455306cc8bebc7fe02be11fc8ee49bd8f636ac23783e51"
   url "https://github.com/sabadia/iina/releases/download/#{version}/iina-#{arch}.tar.xz"
   name "iina-git"
   desc "Free and open-source media player"
