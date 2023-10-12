@@ -1,9 +1,8 @@
 cask "iina-git" do
-  version "1.3.3"
-  tag "1"
+  version "1.3.3-1"
   arch arm: "arm64", intel: "universal"
   sha256 "49721d4f700b1267da455306cc8bebc7fe02be11fc8ee49bd8f636ac23783e51"
-  url "https://github.com/sabadia/iina/releases/download/#{version}-#{tag}/iina-#{arch}.tar.xz"
+  url "https://github.com/sabadia/iina/releases/download/#{version}/iina-#{arch}.tar.xz"
   name "iina-git"
   desc "Free and open-source media player"
   homepage "https://iina.io/"
